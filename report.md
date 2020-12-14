@@ -38,8 +38,18 @@ Upload your datasets to your GitHub repo. *Please do not include emails that con
 ### Q2. Naive Bayes classifier
 Use the provided example code (see https://github.com/cs432-websci-fall20/assignments/blob/master/432_PCI_Ch06.ipynb) to train and test the Naive Bayes classifier.  Use your *Training* dataset to train the Naive Bayes classifier.  Use your *Testing* dataset to test the Naive Bayes classifier and report the classification results for each email message in the *Testing* dataset.
 
+![insert training emails](./q2.png)
+
+
 ### Q3. Confusion Matrix
 Draw a confusion matrix for your classification results (see [Week-13 Document Filtering](https://docs.google.com/presentation/d/1TgSeYh7gjpxl8f_9-FKG7MnXG1HI_iwH_KDFyUgKlWU/edit?usp=sharing), slides 40, 42, 43).
+
+![Confusion Matrix](./matrix.png)
+
+For this assignment, the amount of item collected for the college training emails were a lot more than those for promotional emails. This created a bias toward college. This made a lot of tests resulting in college. The majority of tests were successful and classify the emails in the right category. The program did not read my emails when I load them directly from the file. As a workaround, I copied segments of the emails and pasted them in the classifier. This is shown in the attached image. 
+This assignment helped me to understand the use of probability to predict the category of test Information based on data entered as training information. Naive Bayes classifier did a great job in predicting the classification of the test data.  
+
+![test](./q3.png
 
 ## Extra Credit
 
